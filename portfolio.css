@@ -44,9 +44,13 @@ aside {
 }
 
 .henry {
-  text-align: center;
-  float: left;
-  margin-right: 30px;
+  /* text-align: center; */
+  /* float: left; */
+  /* margin-right: auto; */
+  /* margin-left: auto; */
+  /* display: grid; */
+  place-items: center;
+  /* border: 1px solid red; */
 }
 
 footer {

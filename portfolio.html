@@ -30,12 +30,12 @@
     </nav>
   </header>
   <!-- I shouldn't be needing so many line breaks here (ask iBabs about this later) -->
+  <!-- <br>
   <br>
   <br>
   <br>
-  <br>
-  <br>
-  <section id="about">
+  <br> -->
+  <section style="padding-top: 3rem;" id="about">
     <h2>Hi there</h2>
     <!-- <p>Nice to meet you</p> -->
 
@@ -86,10 +86,35 @@
   <section id="work">
     <p align="justify">There are a variety of reasons why you should patronize me namely:
     <div class="henry">
-      <img height="213" width="300" src="/henry cooking.jpeg" alt="I am cooking" id>
+      <div style="display: flex;">
+        <ol style="display: inline; width: 300;">
+          <li>Physical beauty
+            <ul style="list-style: disc;">
+              <li>I am 6ft+</li>
+              <li>I am a fine boy</li>
+              <li>I have a complete hairline</li>
+            </ul>
+          </li>
+          <li>Mental beauty
+            <ul style="list-style: square;">
+              <li>I am brilliant</li>
+              <li>I am a relatively fast learner</li>
+              <li>I am knowledgeable in a vast array of Subjects</li>
+            </ul>
+          </li>
+          <li>Emotional beauty
+            <ul style="list-style: circle;">
+              <li>I have sense</li>
+              <li>I am a good listener and conversationalist</li>
+              <li>I can offer useful advice to various issues that you might have</li>
+            </ul>
+          </li>
+        </ol>
+        <img height="213" width="300" src="/henry cooking.jpeg" alt="I am cooking" id>
+      </div>
     </div>
     </p>
-    <ol>
+    <!-- <ol>
       <li>Physical beauty
         <ul style="list-style: disc;">
           <li>I am 6ft+</li>
@@ -106,12 +131,12 @@
       </li>
       <li>Emotional beauty
         <ul style="list-style: circle;">
-          <li>I always read the room</li>
+          <li>I have sense</li>
           <li>I am a good listener and conversationalist</li>
           <li>I can offer useful advice to various issues that you might have</li>
         </ul>
       </li>
-    </ol>
+    </ol> -->
     <!-- Try to incorpoate article tag and an href link in this one -->
     <article>
       <h4>Other stuff</h4>
@@ -238,7 +263,7 @@
       <br>
       Your favourite colour: <input type="color"><br>
       <br>
-      <textarea name="What type of beautiful person do you want?" id="" cols="30" rows="10"
+      <textarea name="remarks and suggestions" id="" cols="30" rows="10"
         placeholder="Your comments here"></textarea><br>
       <input type="submit" value="Submit">
     </form>
